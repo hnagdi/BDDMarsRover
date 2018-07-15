@@ -1,0 +1,44 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+*-debug.log*
+
+/logs
+/out
+
+#node modules and core lib
+node_modules/
+lib/
+require.js
+
+#ignore generated template js
+src/main/resources/static/**/template/*.js
