@@ -14,5 +14,4 @@ dependencies {
     testCompile 'io.cucumber:cucumber-java8:3.0.2'
     testCompile 'io.cucumber:cucumber-junit:3.0.2'
     testCompile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
-
 }
